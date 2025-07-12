@@ -16,7 +16,7 @@ main {
 
 /* Logo */
 .logo {
-  width: 200px;
+  width: 100px;
   height: auto;
   border-radius: 10px;
   margin-bottom: 1em;
@@ -64,7 +64,7 @@ h2 {
 }
 
 .link-item img {
-  width: 48px;     /* statt 64px */
+  width: 48px;     
   height: 48px;
   margin-bottom: 0.3em;
 }
@@ -74,7 +74,7 @@ h2 {
   text-decoration: none;
   border-bottom: 1px solid #bbbbbb;
   padding-bottom: 1px;
-  font-size: 1em;   /* statt 1.1em */
+  font-size: 1em;   
   transition: all 0.2s ease-in-out;
 }
 
