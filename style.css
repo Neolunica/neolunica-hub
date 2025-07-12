@@ -51,9 +51,9 @@ h2 {
 .links {
   display: flex;
   justify-content: center;
-  gap: 2em;
+  gap: 1.5em;
   flex-wrap: wrap;
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 
 .link-item {
@@ -64,18 +64,17 @@ h2 {
 }
 
 .link-item img {
-  width: 64px;
-  height: 64px;
-  object-fit: contain;
-  margin-bottom: 0.5em;
+  width: 48px;     /* statt 64px */
+  height: 48px;
+  margin-bottom: 0.3em;
 }
 
 .link-item a {
   color: #1a1a1a;
   text-decoration: none;
   border-bottom: 1px solid #bbbbbb;
-  padding-bottom: 2px;
-  font-size: 1.1em;
+  padding-bottom: 1px;
+  font-size: 1em;   /* statt 1.1em */
   transition: all 0.2s ease-in-out;
 }
 
