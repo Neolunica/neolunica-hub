@@ -3,8 +3,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
-  background-color: #0e0e0e;
-  color: #eeeeee;
+  background-color: #f4f4f4; /* Heller Hintergrund */
+  color: #1a1a1a; /* Dunkler Text */
   text-align: center;
 }
 
@@ -22,7 +22,7 @@ main {
   margin-bottom: 1em;
 }
 
-/* Überschrift & Tagline */
+/* Unsichtbare Hauptüberschrift */
 h1 {
   position: absolute;
   left: -9999px;
@@ -32,18 +32,27 @@ h1 {
   overflow: hidden;
 }
 
+/* Sichtbare fette Begrüßung */
+h2 {
+  font-weight: 900; /* Lato Black */
+  font-size: 2.4em;
+  margin-top: 0;
+  margin-bottom: 0.2em;
+}
+
+/* Tagline */
 .tagline {
   font-size: 1.2em;
-  color: #cccccc;
+  color: #444444;
   margin-bottom: 2em;
 }
 
 /* Linkbereich */
 .links a {
   display: inline-block;
-  color: #eeeeee;
+  color: #1a1a1a;
   text-decoration: none;
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #bbbbbb;
   padding-bottom: 2px;
   font-size: 1.1em;
   margin: 0.5em 0;
@@ -51,7 +60,7 @@ h1 {
 }
 
 .links a:hover {
-  border-color: #ffffff;
-  color: #ffffff;
-  text-shadow: 0 0 3px #cccccc;
+  border-color: #1a1a1a;
+  color: #000000;
+  text-shadow: 0 0 2px #aaaaaa;
 }
